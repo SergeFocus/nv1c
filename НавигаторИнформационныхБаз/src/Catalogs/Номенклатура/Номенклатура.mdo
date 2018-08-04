@@ -7,14 +7,14 @@
     <listType typeId="29d6332b-12b7-461a-aaed-c2772a3f7c82" valueTypeId="bf06f8e4-e5d6-44fe-ae02-d07134822dc1"/>
     <managerType typeId="88d7924c-9027-487d-8dda-939c38fa53a6" valueTypeId="e6acf531-7818-4eb1-be34-92f72959c9f1"/>
   </producedTypes>
-  <name>Товары</name>
+  <name>Номенклатура</name>
   <synonym>
     <key>ru</key>
-    <value>Товары</value>
+    <value>Номенклатура</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Товары.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Товары.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -30,4 +30,26 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="62f19e21-d423-4888-8cea-dfca22c1bd43">
+    <producedTypes>
+      <objectType typeId="c007f40f-dc41-47c8-bcbb-607dc0fd75cf" valueTypeId="00aa36a4-c765-48eb-b629-182bec958697"/>
+      <rowType typeId="fb3ff804-dffd-4e35-8894-f75c73970c65" valueTypeId="77aa2def-213e-4ed8-bd24-1dcccbbaa6f0"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <attributes uuid="30ff4d60-894d-4bb9-a33a-a40425e8ca7e">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>

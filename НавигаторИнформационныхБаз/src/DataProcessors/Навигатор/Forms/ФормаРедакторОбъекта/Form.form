@@ -4649,6 +4649,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>РегистрСведенийПредставлениеТипа</name>
+      <title>
+        <key>ru</key>
+        <value>Регистр сведений представление типа</value>
+      </title>
+      <id>20</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ВсеСвойстваЗначенияПеречисления</name>

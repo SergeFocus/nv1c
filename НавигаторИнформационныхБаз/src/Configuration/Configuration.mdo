@@ -29,6 +29,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
   <dataProcessors>DataProcessor.Навигатор</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныЗакупки</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
 </mdclass:Configuration>

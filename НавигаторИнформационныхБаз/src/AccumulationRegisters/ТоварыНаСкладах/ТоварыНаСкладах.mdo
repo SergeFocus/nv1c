@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeab679d-4e5e-44b8-a69c-7a8e8f599e4e">
+  <producedTypes>
+    <selectionType typeId="6edb24e6-686e-4da1-b2a9-6be951bc8085" valueTypeId="599f19a4-df74-4a05-ab6a-2f16b65c4a74"/>
+    <listType typeId="6a2ca21c-b278-4276-9cd6-85656a6ce82e" valueTypeId="963fb1fd-c6c3-4fd1-9b44-c47a90099990"/>
+    <managerType typeId="66d7a5b5-9430-4f5c-bc92-0b4ff496fd52" valueTypeId="03631b6b-f634-436f-8b41-925ef12bc898"/>
+    <recordSetType typeId="637c1c16-329b-4c91-ab45-2d7b7a14ee32" valueTypeId="6e90b5f6-a5f3-4418-a4cf-3b225d88d11a"/>
+    <recordKeyType typeId="54babf7e-b6cb-4b08-b1e1-3e527b1bb396" valueTypeId="77ad24df-1fbc-4faa-9638-956200c8fea9"/>
+    <recordType typeId="5e7e8882-282a-4765-81f2-ed2690b8a1fe" valueTypeId="aab2d55e-91ab-4f96-a2f6-cda2629eacc2"/>
+  </producedTypes>
+  <name>ТоварыНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары на складах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="63e71259-bf5a-4125-a483-e5db97dfaec6">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9b6d24bc-d2cd-45d4-9618-635eb20ac381">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="c70ebfbe-1d76-42e7-ae0f-8f5244853a1e">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

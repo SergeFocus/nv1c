@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fca8867c-d191-4231-adb0-e284ca8d4f28">
+  <producedTypes>
+    <selectionType typeId="ab9bc350-1b82-4c25-8309-c94c8052a985" valueTypeId="084d4b14-82d7-4c39-9105-c0a2cd7efadb"/>
+    <listType typeId="b2b0845a-936a-44b8-996a-9aa4b8a4e6c5" valueTypeId="1a45bcb9-b6a6-4407-9aa0-992ac5c358f6"/>
+    <managerType typeId="8279352b-0545-4ab1-95c6-56502035bc12" valueTypeId="ef0d9d07-051f-4c83-813e-1a0da9727bb9"/>
+    <recordSetType typeId="5f153af9-ec2e-429d-a2ad-72f92dd8e6b1" valueTypeId="3fed489c-682d-4f59-9fbf-b33366c66359"/>
+    <recordKeyType typeId="0cb3d4ab-f460-47cf-9d66-5d03c8129238" valueTypeId="94edcd94-2095-4a08-80fc-59727d9d288e"/>
+    <recordType typeId="9c493a2a-52ec-43ea-8dd8-c91aae1cd645" valueTypeId="43831ae0-c378-4856-a7a2-a2a89dc1e9fb"/>
+    <recordManagerType typeId="02c0fa3b-14b7-45a1-9010-05aed0b94486" valueTypeId="ad227650-5fac-4a6f-a165-e23b31fcce38"/>
+  </producedTypes>
+  <name>ЦеныЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены закупки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="d511bd89-5250-4d57-99d4-f1c6db9e96e3">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="a78fb161-36f9-4ae9-bcdf-db9752a4461c">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bfc33ffd-9e7a-4e4d-9714-d0556200e831">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
