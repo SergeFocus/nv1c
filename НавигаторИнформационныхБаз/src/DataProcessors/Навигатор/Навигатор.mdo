@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff5adc16-6736-4b5e-9a2f-daed5daaf939">
+  <producedTypes>
+    <objectType typeId="3413d71e-f67d-465a-9fcd-1b05402f455a" valueTypeId="185a4e20-969b-4d0a-a0c3-4ca4b56f2561"/>
+    <managerType typeId="d070cf57-354a-48b2-9ffe-b2d225e3f8cc" valueTypeId="17ca1be4-d69f-4110-a65f-37d07358e1d5"/>
+  </producedTypes>
+  <name>Навигатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Навигатор 2.0.0.18</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Навигатор.Form.ФормаНавигаторБазы</defaultForm>
+  <attributes uuid="dec16ca4-1619-45de-8122-b913ebd7d427">
+    <name>РазделительЧастейИмен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель частей имен</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bab0289a-ec3e-4c65-8204-6590e43f2f1e">
+    <name>Настройки_ОтображатьКоличествоЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать количество элементов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d7143f88-eeaf-4f34-a120-94122fda65e1">
+    <name>ФормаНавигаторБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма навигатор базы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d6f1a81f-6209-406d-af4c-69e9c7fc4553">
+    <name>ФормаРедакторОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактор объекта</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="89ce49c8-c46a-4368-b9cb-b11bde6af3ea">
+    <name>ФормаСвойстваОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма свойства объекта</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a25f7158-b65b-4591-ba97-5dc888da8574">
+    <name>ФормаЗначенияКонстант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма значения констант</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="99203901-d1fa-423d-8d65-ae64c2137817">
+    <name>ФормаОПрограмме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма о программе</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="85003d1d-215e-4e76-a951-3283da00fbb0">
+    <name>ФормаНастройкиНавигатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dba7c9b3-74dc-4e08-8772-6c21fbbaf8ff">
+    <name>ФормаПользователиБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи информационной базы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
