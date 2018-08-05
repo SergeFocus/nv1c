@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27128426-6a8d-4fae-b4dc-aa0369a98e36">
+  <producedTypes>
+    <objectType typeId="3c822152-16da-409f-ace4-a8857a357169" valueTypeId="7f368363-99e3-479b-ba5c-438bdc149c88"/>
+    <refType typeId="c552c0f8-843a-4cf8-a55e-1a7dbaf6f904" valueTypeId="21acddde-4ef2-4a4c-b894-7dfeb54eddcb"/>
+    <selectionType typeId="5fd0723a-0378-4f03-b5cb-39ce0a855d92" valueTypeId="b7716ee7-1d42-4c89-a31a-bc0ec2704b47"/>
+    <listType typeId="1d98ab2b-603d-4cbe-bd9a-d0b85c61a406" valueTypeId="6ebdf49b-2083-47c7-a92e-1d1b631ec8f2"/>
+    <managerType typeId="ad12d293-28bd-4017-800b-fbf4d4addb08" valueTypeId="6ec95ad0-8419-462d-89df-7205136b6bf8"/>
+    <extDimensionTypes typeId="de1283c8-512b-417b-9c1b-788fa2d9c373" valueTypeId="90420f62-242d-4cac-9b88-08eb68953535"/>
+    <extDimensionTypesRow typeId="9c2a985b-72e2-45f8-a9f7-5c0e827e99ea" valueTypeId="8ff255e8-2cdc-4575-99ec-7536399629f9"/>
+  </producedTypes>
+  <name>Хозрасчетный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хозрасчетный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.Хозрасчетный.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfAccounts.Хозрасчетный.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfAccounts>

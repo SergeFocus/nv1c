@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="489d7967-e042-44b3-8e3a-7eade2330d78">
+  <name>ВсеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПриходнаяНакладная</content>
+</mdclass:Subsystem>

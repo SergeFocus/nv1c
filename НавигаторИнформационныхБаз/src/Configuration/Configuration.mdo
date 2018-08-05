@@ -29,6 +29,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ВсеСправочники</subsystems>
+  <subsystems>Subsystem.ВсеДокументы</subsystems>
+  <subsystems>Subsystem.ВсеПланыСчетов</subsystems>
+  <subsystems>Subsystem.ВсеРегистрыНакопления</subsystems>
+  <subsystems>Subsystem.ВсеОбработки</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
@@ -36,4 +41,5 @@
   <dataProcessors>DataProcessor.Навигатор</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныЗакупки</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <chartsOfAccounts>ChartOfAccounts.Хозрасчетный</chartsOfAccounts>
 </mdclass:Configuration>
