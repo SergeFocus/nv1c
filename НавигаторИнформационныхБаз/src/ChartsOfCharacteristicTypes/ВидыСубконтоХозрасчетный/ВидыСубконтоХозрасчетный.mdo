@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c4567e0-ccd7-4f90-8c7a-228c84d7dc8e">
+  <producedTypes>
+    <objectType typeId="78e51025-f613-4d15-93a7-6bc49f0aa6f2" valueTypeId="6dc72218-63bb-4e86-a1c1-1019b0a1ded7"/>
+    <refType typeId="6b286dff-1bfe-4150-8d30-f661ecbfb288" valueTypeId="830e35df-6f44-4bde-935a-4048e5727356"/>
+    <selectionType typeId="74ce6eec-a883-4ed2-a873-08883209127b" valueTypeId="0d45a955-8a5c-44b8-a442-f61c528085dc"/>
+    <listType typeId="8911fd05-6184-467a-947f-5cc790b5e50b" valueTypeId="9e4f6451-de55-4fa8-933e-93829228a31d"/>
+    <managerType typeId="1aa05545-0fa8-410c-817c-bda3fda1aebd" valueTypeId="91d5d367-ca93-4858-b3a2-61febbeceaf1"/>
+    <containerType typeId="21dedbd8-3aca-4da3-8dc3-a425dbd7d2c9" valueTypeId="214b1d94-47bc-4100-8a56-7035c588953d"/>
+  </producedTypes>
+  <name>ВидыСубконтоХозрасчетный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто хозрасчетный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетный.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетный.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

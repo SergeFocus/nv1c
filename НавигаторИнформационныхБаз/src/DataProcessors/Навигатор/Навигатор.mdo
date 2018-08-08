@@ -13,10 +13,10 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.Навигатор.Form.ФормаНавигаторБазы</defaultForm>
   <attributes uuid="dec16ca4-1619-45de-8122-b913ebd7d427">
-    <name>РазделительЧастейИмен</name>
+    <name>Система_РазделительЧастейИмен</name>
     <synonym>
       <key>ru</key>
-      <value>Разделитель частей имен</value>
+      <value>Система разделитель частей имен</value>
     </synonym>
     <comment></comment>
     <type>
@@ -110,6 +110,15 @@
       <value>Пользователи информационной базы</value>
     </synonym>
     <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9955bca4-d9f4-4c82-aa0a-33d5a885f0de">
+    <name>ФормаРедакторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактор записи</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

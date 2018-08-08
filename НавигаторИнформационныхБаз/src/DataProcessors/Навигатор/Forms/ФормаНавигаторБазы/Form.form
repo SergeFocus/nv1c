@@ -107,7 +107,7 @@
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
               <paths xsi:type="form:DataPath">
-                <segments>СтруктураМетаданныхКонфигурации.СтруктураМетаданныхКонфигурацииТипЗаписи</segments>
+                <segments>СтруктураМетаданныхКонфигурации.ТипЗаписи</segments>
               </paths>
             </dataPath>
             <extendedTooltip>
@@ -160,7 +160,7 @@
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
               <paths xsi:type="form:DataPath">
-                <segments>СтруктураМетаданныхКонфигурации.СтруктураМетаданныхКонфигурацииИмяКоллекции</segments>
+                <segments>СтруктураМетаданныхКонфигурации.ИмяКоллекции</segments>
               </paths>
             </dataPath>
             <extendedTooltip>
@@ -213,7 +213,7 @@
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
               <paths xsi:type="form:DataPath">
-                <segments>СтруктураМетаданныхКонфигурации.СтруктураМетаданныхКонфигурацииИмяЭлементаКоллекции</segments>
+                <segments>СтруктураМетаданныхКонфигурации.ИмяЭлементаКоллекции</segments>
               </paths>
             </dataPath>
             <extendedTooltip>
@@ -298,7 +298,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>СтруктураМетаданныхКонфигурации.СтруктураМетаданныхКонфигурацииПредставление</segments>
+              <segments>СтруктураМетаданныхКонфигурации.Представление</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -355,7 +355,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>СтруктураМетаданныхКонфигурации.СтруктураМетаданныхКонфигурацииСиноним</segments>
+              <segments>СтруктураМетаданныхКонфигурации.Синоним</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -718,7 +718,7 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <rowPictureDataPath xsi:type="form:DataPath">
-          <segments>СтруктураМетаданныхКонфигурации.СтруктураМетаданныхКонфигурацииНомерКартинки</segments>
+          <segments>СтруктураМетаданныхКонфигурации.НомерКартинки</segments>
         </rowPictureDataPath>
         <rowsPicture xsi:type="form:FormPicture"/>
       </items>
@@ -816,7 +816,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>НастройкиКолонокСписка.НастройкиКолонокСпискаВидимость</segments>
+              <segments>НастройкиКолонокСписка.Видимость</segments>
             </paths>
           </dataPath>
           <titleLocation>None</titleLocation>
@@ -869,7 +869,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>НастройкиКолонокСписка.НастройкиКолонокСпискаТипЗаписи</segments>
+              <segments>НастройкиКолонокСписка.ТипЗаписи</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -925,7 +925,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>НастройкиКолонокСписка.НастройкиКолонокСпискаИмя</segments>
+              <segments>НастройкиКолонокСписка.Имя</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -981,7 +981,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>НастройкиКолонокСписка.НастройкиКолонокСпискаПредставлениеТипа</segments>
+              <segments>НастройкиКолонокСписка.ПредставлениеТипа</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -1361,7 +1361,7 @@
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
         <rowPictureDataPath xsi:type="form:DataPath">
-          <segments>НастройкиКолонокСписка.НастройкиКолонокСпискаНомерКартинки</segments>
+          <segments>НастройкиКолонокСписка.НомерКартинки</segments>
         </rowPictureDataPath>
         <rowsPicture xsi:type="form:FormPicture"/>
       </items>
@@ -1564,16 +1564,16 @@
       <name>ФормаПодменюСервис</name>
       <id>144</id>
       <items xsi:type="form:Button">
-        <name>КомандаОткрытьФормуНастройкиНавигатора</name>
-        <id>148</id>
+        <name>КомандаОтобразитьКоличествоВсехЭлементов</name>
+        <id>160</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КомандаОткрытьФормуНастройкиНавигатораРасширеннаяПодсказка</name>
-          <id>149</id>
+          <name>КомандаОтобразитьКоличествоВсехЭлементовРасширеннаяПодсказка</name>
+          <id>161</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1586,23 +1586,86 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Command.КомандаОткрытьФормуНастройкиНавигатора</commandName>
+        <commandName>Form.Command.КомандаОтобразитьКоличествоВсехЭлементов</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
       </items>
-      <items xsi:type="form:Button">
-        <name>ИзменитьФорму</name>
-        <id>140</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаПодменюСервисДополнительные</name>
+        <id>162</id>
+        <items xsi:type="form:Button">
+          <name>КомандаОткрытьФормуНастройкиНавигатора</name>
+          <id>148</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КомандаОткрытьФормуНастройкиНавигатораРасширеннаяПодсказка</name>
+            <id>149</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.КомандаОткрытьФормуНастройкиНавигатора</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+        </items>
+        <items xsi:type="form:Button">
+          <name>КомандаИзменитьФорму</name>
+          <id>140</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КомандаИзменитьФормуРасширеннаяПодсказка</name>
+            <id>141</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.StandardCommand.CustomizeForm</commandName>
+          <representation>Picture</representation>
+          <onlyInAllActions>false</onlyInAllActions>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа подменю сервис дополнительные</value>
+        </title>
         <extendedTooltip>
-          <name>ИзменитьФормуРасширеннаяПодсказка</name>
-          <id>141</id>
+          <name>ГруппаПодменюСервисДополнительныеРасширеннаяПодсказка</name>
+          <id>163</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1615,12 +1678,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.StandardCommand.CustomizeForm</commandName>
-        <representation>Picture</representation>
-        <onlyInAllActions>false</onlyInAllActions>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
+        <extInfo xsi:type="form:ButtonGroupExtInfo"/>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1865,7 +1923,7 @@
       <common>true</common>
     </edit>
     <columns>
-      <name>СтруктураМетаданныхКонфигурацииТипЗаписи</name>
+      <name>ТипЗаписи</name>
       <title>
         <key>ru</key>
         <value>Тип записи</value>
@@ -1883,7 +1941,7 @@
       </edit>
     </columns>
     <columns>
-      <name>СтруктураМетаданныхКонфигурацииИмяКоллекции</name>
+      <name>ИмяКоллекции</name>
       <title>
         <key>ru</key>
         <value>Имя коллекции</value>
@@ -1901,7 +1959,7 @@
       </edit>
     </columns>
     <columns>
-      <name>СтруктураМетаданныхКонфигурацииИмяЭлементаКоллекции</name>
+      <name>ИмяЭлементаКоллекции</name>
       <title>
         <key>ru</key>
         <value>Имя элемента коллекции</value>
@@ -1919,7 +1977,7 @@
       </edit>
     </columns>
     <columns>
-      <name>СтруктураМетаданныхКонфигурацииИмя</name>
+      <name>Имя</name>
       <title>
         <key>ru</key>
         <value>Имя</value>
@@ -1937,7 +1995,7 @@
       </edit>
     </columns>
     <columns>
-      <name>СтруктураМетаданныхКонфигурацииСиноним</name>
+      <name>Синоним</name>
       <title>
         <key>ru</key>
         <value>Синоним</value>
@@ -1955,7 +2013,7 @@
       </edit>
     </columns>
     <columns>
-      <name>СтруктураМетаданныхКонфигурацииКоличествоЗаписей</name>
+      <name>КоличествоЗаписей</name>
       <title>
         <key>ru</key>
         <value>Количество</value>
@@ -1975,7 +2033,7 @@
       </edit>
     </columns>
     <columns>
-      <name>СтруктураМетаданныхКонфигурацииКомментарий</name>
+      <name>Комментарий</name>
       <title>
         <key>ru</key>
         <value>Комментарий</value>
@@ -1993,10 +2051,10 @@
       </edit>
     </columns>
     <columns>
-      <name>СтруктураМетаданныхКонфигурацииНомерКартинки</name>
+      <name>НомерКартинки</name>
       <title>
         <key>ru</key>
-        <value>Структура метаданных конфигурации номер картинки</value>
+        <value>Номер картинки</value>
       </title>
       <id>2</id>
       <valueType>
@@ -2014,7 +2072,7 @@
       </edit>
     </columns>
     <columns>
-      <name>СтруктураМетаданныхКонфигурацииПредставление</name>
+      <name>Представление</name>
       <title>
         <key>ru</key>
         <value>Метаданные</value>
@@ -2070,7 +2128,7 @@
       <common>true</common>
     </edit>
     <columns>
-      <name>НастройкиКолонокСпискаТипЗаписи</name>
+      <name>ТипЗаписи</name>
       <title>
         <key>ru</key>
         <value>Тип</value>
@@ -2088,7 +2146,7 @@
       </edit>
     </columns>
     <columns>
-      <name>НастройкиКолонокСпискаИмя</name>
+      <name>Имя</name>
       <title>
         <key>ru</key>
         <value>Колонка</value>
@@ -2106,10 +2164,10 @@
       </edit>
     </columns>
     <columns>
-      <name>НастройкиКолонокСпискаВидимость</name>
+      <name>Видимость</name>
       <title>
         <key>ru</key>
-        <value>Настройки колонок списка видимость</value>
+        <value>Видимость</value>
       </title>
       <id>3</id>
       <valueType>
@@ -2123,10 +2181,10 @@
       </edit>
     </columns>
     <columns>
-      <name>НастройкиКолонокСпискаНомерКартинки</name>
+      <name>НомерКартинки</name>
       <title>
         <key>ru</key>
-        <value>Настройки колонок списка номер картинки</value>
+        <value>Номер картинки</value>
       </title>
       <id>4</id>
       <valueType>
@@ -2143,7 +2201,7 @@
       </edit>
     </columns>
     <columns>
-      <name>НастройкиКолонокСпискаИмяЭлементаСписка</name>
+      <name>ИмяЭлементаСписка</name>
       <title>
         <key>ru</key>
         <value>Имя элемента-списка, к оторому относится таблица настройки. Так проще работать с этой функциональностью.</value>
@@ -2161,10 +2219,10 @@
       </edit>
     </columns>
     <columns>
-      <name>НастройкиКолонокСпискаИмяКолонки</name>
+      <name>ИмяКолонки</name>
       <title>
         <key>ru</key>
-        <value>Настройки колонок списка имя колонки</value>
+        <value>Имя колонки</value>
       </title>
       <id>6</id>
       <valueType>
@@ -2179,7 +2237,7 @@
       </edit>
     </columns>
     <columns>
-      <name>НастройкиКолонокСпискаПредставлениеТипа</name>
+      <name>ПредставлениеТипа</name>
       <title>
         <key>ru</key>
         <value>Представление типа</value>
@@ -2436,6 +2494,23 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаОтобразитьКоличествоВсехЭлементов</name>
+    <title>
+      <key>ru</key>
+      <value>Отобразить количество всех элементов</value>
+    </title>
+    <id>12</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаОтобразитьКоличествоВсехЭлементов</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

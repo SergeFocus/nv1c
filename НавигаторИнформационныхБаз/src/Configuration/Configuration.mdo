@@ -41,5 +41,6 @@
   <dataProcessors>DataProcessor.Навигатор</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныЗакупки</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетный</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Хозрасчетный</chartsOfAccounts>
 </mdclass:Configuration>
