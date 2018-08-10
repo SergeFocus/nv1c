@@ -1592,6 +1592,35 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
       </items>
+      <items xsi:type="form:Button">
+        <name>КомандаОткрытьЭлементПоНавигационнойСсылкеВРедакторе</name>
+        <id>164</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>КомандаОткрытьЭлементПоНавигационнойСсылкеВРедактореРасширеннаяПодсказка</name>
+          <id>165</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.КомандаОткрытьЭлементПоНавигационнойСсылкеВРедакторе</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+      </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаПодменюСервисДополнительные</name>
         <id>162</id>
@@ -2508,6 +2537,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаОтобразитьКоличествоВсехЭлементов</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаОткрытьЭлементПоНавигационнойСсылкеВРедакторе</name>
+    <title>
+      <key>ru</key>
+      <value>Открыть элемент по навигационной ссылке в редакторе...</value>
+    </title>
+    <id>13</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаОткрытьЭлементПоНавигационнойСсылкеВРедакторе</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
