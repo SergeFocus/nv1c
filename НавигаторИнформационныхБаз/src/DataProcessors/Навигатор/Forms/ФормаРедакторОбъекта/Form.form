@@ -80,6 +80,35 @@
       <placementArea>UserCmds</placementArea>
     </items>
     <items xsi:type="form:Button">
+      <name>КомандаДобавитьВИзбранное</name>
+      <id>287</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КомандаДобавитьВИзбранноеРасширеннаяПодсказка</name>
+        <id>288</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.КомандаДобавитьВИзбранное</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+    </items>
+    <items xsi:type="form:Button">
       <name>КомандаСтруктураПодчиненности</name>
       <id>157</id>
       <visible>true</visible>
@@ -165,6 +194,35 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.КомандаОткрытьОбъект</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+    </items>
+    <items xsi:type="form:Button">
+      <name>КомандаВключитьРежимРедактированияОбъекта</name>
+      <id>289</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КомандаВключитьРежимРедактированияОбъектаРасширеннаяПодсказка</name>
+        <id>290</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.КомандаВключитьРежимРедактированияОбъекта</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -417,7 +475,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <wrap>true</wrap>
@@ -425,6 +482,9 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <backColor xsi:type="core:ColorRef">
+          <color>Web.LightYellow</color>
+        </backColor>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -544,6 +604,10 @@
               <segments>ВсеРеквизиты.РеквизитЗначение</segments>
             </paths>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ВсеРеквизитыРеквизитЗначениеПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ВсеРеквизитыРеквизитЗначениеРасширеннаяПодсказка</name>
             <id>30</id>
@@ -4311,6 +4375,23 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>РеквизитЭтоСистемный</name>
+      <title>
+        <key>ru</key>
+        <value>Системный реквизит</value>
+      </title>
+      <id>23</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ОбъектКонфигурации</name>
@@ -5152,6 +5233,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ВключенРежимРедактированияОбъекта</name>
+    <title>
+      <key>ru</key>
+      <value>Включен режим редактирования объекта</value>
+    </title>
+    <id>22</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>КомандаСтруктураПодчиненности</name>
     <title>
@@ -5334,6 +5432,46 @@
       </handler>
     </action>
     <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаДобавитьВИзбранное</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить в избранное</value>
+    </title>
+    <id>9</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.AddToFavorites</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаДобавитьВИзбранное</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаВключитьРежимРедактированияОбъекта</name>
+    <title>
+      <key>ru</key>
+      <value>Включить режим редактирования объекта</value>
+    </title>
+    <id>10</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Change</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаВключитьРежимРедактированияОбъекта</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>

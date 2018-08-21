@@ -7,7 +7,7 @@
   <name>Навигатор</name>
   <synonym>
     <key>ru</key>
-    <value>Навигатор 2.0.0.20</value>
+    <value>Навигатор 2.0.0.21</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
@@ -43,6 +43,64 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <tabularSections uuid="0fee7e35-c15a-46a7-aac2-c8b2ed5cab1e">
+    <producedTypes>
+      <objectType typeId="bfc5b617-31ee-4fac-b4df-2ff007cd8af8" valueTypeId="9df17be3-5911-48b2-bb2e-18c290bc063b"/>
+      <rowType typeId="a238cdf1-d609-45be-adfe-230c40c6877f" valueTypeId="c3858985-ab8e-422d-b006-b4a859f8ee63"/>
+    </producedTypes>
+    <name>ИзбранныеЭлементы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Избранные элементы</value>
+    </synonym>
+    <attributes uuid="b3817334-f9e9-436d-b0f2-0084314cc2aa">
+      <name>ИдЗаписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ид записи</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="a771fd06-0af1-455e-996e-9865a596b9f0">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+    </attributes>
+    <attributes uuid="37e6507b-375a-4066-b78d-79c27447d910">
+      <name>Родитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родитель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="eaae1913-5b03-4cd8-b43a-a17063ee7414">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </synonym>
+      <type>
+        <types>AnyRef</types>
+      </type>
+    </attributes>
+  </tabularSections>
   <forms uuid="d7143f88-eeaf-4f34-a120-94122fda65e1">
     <name>ФормаНавигаторБазы</name>
     <synonym>
