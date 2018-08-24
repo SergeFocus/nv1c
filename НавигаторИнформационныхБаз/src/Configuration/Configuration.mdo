@@ -37,10 +37,12 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <dataProcessors>DataProcessor.Навигатор</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныЗакупки</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетный</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Хозрасчетный</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Хозрасчетный</accountingRegisters>
 </mdclass:Configuration>

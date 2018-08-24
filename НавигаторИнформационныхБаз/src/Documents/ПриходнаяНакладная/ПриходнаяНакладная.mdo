@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
   <registerRecords>InformationRegister.ЦеныЗакупки</registerRecords>
+  <registerRecords>AccountingRegister.Хозрасчетный</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1921eb90-16d8-4275-8ab5-8c83756c52c1">
@@ -47,6 +48,18 @@
     </synonym>
     <type>
       <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cae9670b-179c-42ee-8d5f-139557a13464">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
