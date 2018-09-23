@@ -2234,6 +2234,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <representation>Tree</representation>
+                <readOnly>true</readOnly>
                 <changeRowOrder>true</changeRowOrder>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2463,6 +2464,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>InputField</type>
+                  <readOnly>true</readOnly>
                   <editMode>EnterOnInput</editMode>
                   <showInHeader>true</showInHeader>
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2868,6 +2870,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <representation>Tree</representation>
+                <readOnly>true</readOnly>
                 <changeRowOrder>true</changeRowOrder>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2962,6 +2965,7 @@
               </extendedTooltip>
               <type>Pages</type>
               <extInfo xsi:type="form:PagesGroupExtInfo">
+                <pagesRepresentation>TabsOnTop</pagesRepresentation>
                 <currentRowUse>DontUse</currentRowUse>
               </extInfo>
             </items>
@@ -3054,21 +3058,23 @@
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <items xsi:type="form:FormField">
-                  <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииИмя</name>
-                  <id>177</id>
+                  <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииПредставление</name>
+                  <id>291</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Имя</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>ВсеРегистрыБухгалтерии.РегистрБухгалтерииИмя</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ВсеРегистрыБухгалтерии.РегистрБухгалтерииПредставление</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииИмяРасширеннаяПодсказка</name>
-                    <id>179</id>
+                    <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииПредставлениеРасширеннаяПодсказка</name>
+                    <id>293</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -3082,8 +3088,8 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииИмяКонтекстноеМеню</name>
-                    <id>178</id>
+                    <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииПредставлениеКонтекстноеМеню</name>
+                    <id>292</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -3092,7 +3098,8 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>InputField</type>
-                  <editMode>EnterOnInput</editMode>
+                  <readOnly>true</readOnly>
+                  <editMode>Enter</editMode>
                   <showInHeader>true</showInHeader>
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
@@ -3103,6 +3110,64 @@
                     <chooseType>true</chooseType>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:FormField">
+                  <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииПредставлениеТипа</name>
+                  <id>294</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Тип</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ВсеРегистрыБухгалтерии.РегистрБухгалтерииПредставлениеТипа</segments>
+                  </dataPath>
+                  <extendedTooltip>
+                    <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииПредставлениеТипаРасширеннаяПодсказка</name>
+                    <id>296</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииПредставлениеТипаКонтекстноеМеню</name>
+                    <id>295</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>InputField</type>
+                  <readOnly>true</readOnly>
+                  <editMode>Enter</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:InputFieldExtInfo">
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <wrap>true</wrap>
+                    <chooseType>true</chooseType>
+                    <typeDomainEnabled>true</typeDomainEnabled>
+                    <textEdit>true</textEdit>
+                    <textColor xsi:type="core:ColorRef">
+                      <color>Web.MidnightBlue</color>
+                    </textColor>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
@@ -3155,58 +3220,9 @@
                     <chooseType>true</chooseType>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
-                  </extInfo>
-                </items>
-                <items xsi:type="form:FormField">
-                  <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииКоличествоЗаписей</name>
-                  <id>183</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>ВсеРегистрыБухгалтерии.РегистрБухгалтерииКоличествоЗаписей</segments>
-                    </paths>
-                  </dataPath>
-                  <extendedTooltip>
-                    <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииКоличествоЗаписейРасширеннаяПодсказка</name>
-                    <id>185</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <contextMenu>
-                    <name>ВсеРегистрыБухгалтерииРегистрБухгалтерииКоличествоЗаписейКонтекстноеМеню</name>
-                    <id>184</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <autoFill>true</autoFill>
-                  </contextMenu>
-                  <type>InputField</type>
-                  <editMode>EnterOnInput</editMode>
-                  <showInHeader>true</showInHeader>
-                  <headerHorizontalAlign>Left</headerHorizontalAlign>
-                  <showInFooter>true</showInFooter>
-                  <extInfo xsi:type="form:InputFieldExtInfo">
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <wrap>true</wrap>
-                    <chooseType>true</chooseType>
-                    <typeDomainEnabled>true</typeDomainEnabled>
-                    <textEdit>true</textEdit>
+                    <textColor xsi:type="core:ColorRef">
+                      <color>Web.DarkBlue</color>
+                    </textColor>
                   </extInfo>
                 </items>
                 <autoCommandBar>
@@ -3426,6 +3442,8 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
+                <representation>Tree</representation>
+                <readOnly>true</readOnly>
                 <changeRowOrder>true</changeRowOrder>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -3438,6 +3456,7 @@
                 <verticalScrollBar>AutoUse</verticalScrollBar>
                 <horizontalLines>true</horizontalLines>
                 <verticalLines>true</verticalLines>
+                <useAlternationRowColor>true</useAlternationRowColor>
                 <autoInsertNewRow>true</autoInsertNewRow>
                 <searchOnInput>Auto</searchOnInput>
                 <initialListView>Auto</initialListView>
@@ -5020,7 +5039,7 @@
     </title>
     <id>17</id>
     <valueType>
-      <types>ValueTable</types>
+      <types>ValueTree</types>
     </valueType>
     <view>
       <common>true</common>
@@ -5096,6 +5115,78 @@
         <numberQualifiers>
           <precision>10</precision>
         </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РегистрБухгалтерииПредставление</name>
+      <title>
+        <key>ru</key>
+        <value>Регистр бухгалтерии представление</value>
+      </title>
+      <id>24</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РегистрБухгалтерииПредставлениеТипа</name>
+      <title>
+        <key>ru</key>
+        <value>Регистр бухгалтерии представление типа</value>
+      </title>
+      <id>25</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РегистрБухгалтерииТипСтроки</name>
+      <title>
+        <key>ru</key>
+        <value>Регистр бухгалтерии тип строки</value>
+      </title>
+      <id>26</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РегистрБухгалтерииКомментарий</name>
+      <title>
+        <key>ru</key>
+        <value>Регистр бухгалтерии комментарий</value>
+      </title>
+      <id>27</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
@@ -5189,6 +5280,78 @@
         <numberQualifiers>
           <precision>10</precision>
         </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РегистРасчетаТипСтроки</name>
+      <title>
+        <key>ru</key>
+        <value>Регист расчета тип строки</value>
+      </title>
+      <id>28</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РегистрРасчетаКомментарий</name>
+      <title>
+        <key>ru</key>
+        <value>Регистр расчета комментарий</value>
+      </title>
+      <id>29</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РегистрРасчетаПредставление</name>
+      <title>
+        <key>ru</key>
+        <value>Регистр расчета представление</value>
+      </title>
+      <id>30</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РегистрРасчетаПредставлениеТипа</name>
+      <title>
+        <key>ru</key>
+        <value>Регистр расчета представление типа</value>
+      </title>
+      <id>31</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>

@@ -36,6 +36,32 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f5a1f7cc-5e64-48de-af7c-e8833a8177cd">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="2b7c3035-5779-4677-9482-37588480f978">
+      <name>Склады</name>
+      <description>Склады</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+    </items>
+    <items id="2960bb58-3290-48a0-b13f-08abdc68cce0">
+      <name>Поставщики</name>
+      <description>Поставщики</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+  </predefined>
   <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:ChartOfCharacteristicTypes>

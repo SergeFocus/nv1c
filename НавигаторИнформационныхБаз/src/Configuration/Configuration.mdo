@@ -34,15 +34,23 @@
   <subsystems>Subsystem.ВсеПланыСчетов</subsystems>
   <subsystems>Subsystem.ВсеРегистрыНакопления</subsystems>
   <subsystems>Subsystem.ВсеОбработки</subsystems>
+  <subsystems>Subsystem.ВсеПланыВидовРасчета</subsystems>
+  <subsystems>Subsystem.ВсеРегистрыБухгалтерии</subsystems>
+  <subsystems>Subsystem.ВсеРегистрыРасчета</subsystems>
+  <subsystems>Subsystem.ВсеРегистрыСведений</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.Навигатор</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныЗакупки</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетный</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Хозрасчетный</chartsOfAccounts>
-  <accountingRegisters>AccountingRegister.Хозрасчетный</accountingRegisters>
+  <accountingRegisters>AccountingRegister.ХозрасчетныйОбычныйКорр3Субконто</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.РасчетыПоЗаработнойПлате</calculationRegisters>
 </mdclass:Configuration>

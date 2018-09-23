@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b5cc071-1119-4d76-8301-e48533b398d2">
+  <producedTypes>
+    <selectionType typeId="25445f2f-76f6-4dd9-b4d1-a6a49d3d0efd" valueTypeId="c7d88e79-3faa-4877-9165-225467b1bf00"/>
+    <listType typeId="ba7be5da-06b7-451c-981e-dfac9ac2d9f6" valueTypeId="e8f53d93-427a-41ad-9026-f908b83578a2"/>
+    <managerType typeId="11d57f46-da7c-4a00-8d9a-4844a295eae9" valueTypeId="8f91802a-520c-49ea-b30f-65105c0cba40"/>
+    <recordSetType typeId="82ffd115-213f-4c90-9a2d-1a3bcc28760b" valueTypeId="5d6f31a9-6a2e-458c-8a49-5fd1372f3d85"/>
+    <recordKeyType typeId="31a609a8-ca97-4f83-b02d-c4459eb2b6e2" valueTypeId="d59aa1de-30dd-4fa8-8b27-3d3b99b07fc6"/>
+    <recordType typeId="c605da32-5cf9-48ba-b6b0-ec60c47f23b4" valueTypeId="8444c1c4-9d6a-4e29-bd6d-1df2fcc6de44"/>
+    <extDimensionsType typeId="a163b7d6-b41f-4ba0-be07-5f39a92c4777" valueTypeId="f5c7dffb-d4a2-4dd2-b315-4c4d69e69fe8"/>
+  </producedTypes>
+  <name>ХозрасчетныйОбычныйКорр3Субконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хозрасчетный обычный корр3 субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Хозрасчетный</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <fullTextSearch>Use</fullTextSearch>
+  <dimensions uuid="5321af12-f475-4590-8008-3cd8a1d7a415">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </dimensions>
+  <resources uuid="4a49fb90-090a-41fe-995d-73dc52212463">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+  <attributes uuid="e195d527-16db-4dc3-b11a-a10b72fd1e68">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:AccountingRegister>

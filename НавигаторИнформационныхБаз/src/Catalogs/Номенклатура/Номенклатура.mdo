@@ -30,6 +30,18 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e43a046b-51a1-498c-90cc-0cbda54aadb5">
+    <name>ВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид номенклатуры</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыНоменклатуры</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="62f19e21-d423-4888-8cea-dfca22c1bd43">
     <producedTypes>
       <objectType typeId="c007f40f-dc41-47c8-bcbb-607dc0fd75cf" valueTypeId="00aa36a4-c765-48eb-b629-182bec958697"/>

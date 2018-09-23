@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0740a114-23af-4584-a430-490b7fe57b50">
+  <name>ВсеПланыВидовРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все планы видов расчета</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
+</mdclass:Subsystem>

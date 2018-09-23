@@ -21,9 +21,37 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетный</extDimensionTypes>
+  <maxExtDimensionCount>3</maxExtDimensionCount>
   <codeLength>9</codeLength>
   <descriptionLength>25</descriptionLength>
   <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="33a6d92a-ea30-4c55-97df-3a9fc0521ae2">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>41</code>
+      <accountType>ActivePassive</accountType>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетный.Товары</characteristicType>
+        <turnover>true</turnover>
+      </extDimensionTypes>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетный.Склады</characteristicType>
+        <turnover>true</turnover>
+      </extDimensionTypes>
+    </items>
+    <items id="d4ccb4ae-7d21-4e91-8844-9ea4001e1811">
+      <name>РасчетыСПоставщиками</name>
+      <description>Расчеты с поставщиками</description>
+      <code>60</code>
+      <accountType>ActivePassive</accountType>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетный.Поставщики</characteristicType>
+        <turnover>true</turnover>
+      </extDimensionTypes>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:ChartOfAccounts>

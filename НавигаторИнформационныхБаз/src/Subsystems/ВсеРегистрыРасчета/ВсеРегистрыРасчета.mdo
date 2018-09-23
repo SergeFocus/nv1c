@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cf1c1e7-649a-4336-8415-8509a26814da">
+  <name>ВсеРегистрыРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все регистры расчета</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CalculationRegister.РасчетыПоЗаработнойПлате</content>
+</mdclass:Subsystem>

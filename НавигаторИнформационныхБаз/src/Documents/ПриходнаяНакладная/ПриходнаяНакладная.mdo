@@ -25,7 +25,8 @@
   <autonumbering>true</autonumbering>
   <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
   <registerRecords>InformationRegister.ЦеныЗакупки</registerRecords>
-  <registerRecords>AccountingRegister.Хозрасчетный</registerRecords>
+  <registerRecords>AccountingRegister.ХозрасчетныйОбычныйКорр3Субконто</registerRecords>
+  <registerRecords>CalculationRegister.РасчетыПоЗаработнойПлате</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1921eb90-16d8-4275-8ab5-8c83756c52c1">
@@ -110,6 +111,22 @@
         <numberQualifiers>
           <precision>10</precision>
           <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="faa939ef-541c-4284-90ee-3e4f5786d731">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
       <dataHistory>Use</dataHistory>

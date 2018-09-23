@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c292d387-1dd4-464f-b53e-ffec584d78d8">
+  <producedTypes>
+    <selectionType typeId="51b378c6-9303-4259-b094-1ad6561b7293" valueTypeId="f87d0cd6-ca83-4ade-9480-618b0930053e"/>
+    <listType typeId="43803908-1764-4594-bed2-55f141ae1aaf" valueTypeId="b6fe1685-6f34-4080-9bb7-1d2bf28e8efb"/>
+    <managerType typeId="31ad3e14-b4e2-4b9d-a17d-4cbbb6ee37f2" valueTypeId="1cc844d6-a1f1-4d47-a489-d9710ccddfa0"/>
+    <recordSetType typeId="b32bf6a1-06bd-40ec-ab3b-df2db76c4218" valueTypeId="a8f15ee7-b114-42dc-968a-9b2bf0525a98"/>
+    <recordKeyType typeId="79ede146-eb4b-4aff-98be-47780610a2d8" valueTypeId="d61f4e5b-c9e3-4e42-b762-630e046cbb80"/>
+    <recordType typeId="18f058b6-587a-4985-8b5e-296e7bb49bf1" valueTypeId="7c64b422-e256-41b6-8aaf-67e7cd8d8a06"/>
+    <recalcsType typeId="a63a62b5-4ec0-4ff0-b50d-e0897ab98236" valueTypeId="43b36692-30f5-4772-a62a-ff35dee3234d"/>
+  </producedTypes>
+  <name>РасчетыПоЗаработнойПлате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты по заработной плате</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:CalculationRegister>
