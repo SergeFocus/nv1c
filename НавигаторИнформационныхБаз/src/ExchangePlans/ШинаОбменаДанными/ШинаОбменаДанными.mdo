@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7d4a8b5-77f0-4159-993a-20922c39f6bc" thisNode="c7d4a8b5-77f0-4159-993a-20922c39f6bc">
+  <producedTypes>
+    <objectType typeId="37225612-e44b-4a7b-a79e-b68900d0c7b1" valueTypeId="439e7760-b1ea-4333-81d3-f90e4fa4016f"/>
+    <refType typeId="1ae4bdcf-7390-431c-9c20-73e409f48ef2" valueTypeId="a2c25795-e11a-43da-b42e-2ac3306f25da"/>
+    <selectionType typeId="ebf9a3e4-a8e5-4928-9a8b-2ccb06896c3c" valueTypeId="9186b6b5-a84f-4bb9-aafd-394e5e80839d"/>
+    <listType typeId="91b25d8d-6734-4b30-ab75-7a6c6a0ec00b" valueTypeId="91fd71e8-cadf-4401-aa9b-463cef7797d0"/>
+    <managerType typeId="532d4a23-c5e9-468e-a9a9-4f794d919777" valueTypeId="4bc5fba4-bf2a-4c5b-be6e-dcce474b15ef"/>
+  </producedTypes>
+  <name>ШинаОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шина обмена данными</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ШинаОбменаДанными.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.ШинаОбменаДанными.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

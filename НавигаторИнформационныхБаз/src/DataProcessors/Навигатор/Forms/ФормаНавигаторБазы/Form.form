@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
-    <name>КоманднаяПанельБыстрыеДействия</name>
+    <name>КоманднаяПанельСервисБыстрыеДействия</name>
     <id>124</id>
     <items xsi:type="form:Button">
-      <name>КомандаСкрытьПоказатьСтруктуруМетаданныхКонфигурации</name>
+      <name>КомандаСкрытьПоказатьСтруктуруМетаданныхКонфигурацииБыстрая</name>
       <id>88</id>
       <title>
         <key>ru</key>
-        <value>Скрыть/показать дерево метаданных</value>
+        <value></value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -16,7 +16,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КомандаСкрытьПоказатьСтруктуруМетаданныхКонфигурацииРасширеннаяПодсказка</name>
+        <name>КомандаСкрытьПоказатьСтруктуруМетаданныхКонфигурацииБыстраяРасширеннаяПодсказка</name>
         <id>89</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -36,10 +36,9 @@
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <check>true</check>
-      <picture xsi:type="form:FormPicture"/>
     </items>
     <items xsi:type="form:Button">
-      <name>КомандаСкрытьПоказатьПанельИзбранныхЭлементов</name>
+      <name>КомандаСкрытьПоказатьПанельИзбранныхЭлементовБыстрая</name>
       <id>187</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -47,7 +46,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КомандаСкрытьПоказатьПанельИзбранныхЭлементовРасширеннаяПодсказка</name>
+        <name>КомандаСкрытьПоказатьПанельИзбранныхЭлементовБыстраяРасширеннаяПодсказка</name>
         <id>188</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -68,7 +67,36 @@
       <placementArea>UserCmds</placementArea>
     </items>
     <items xsi:type="form:Button">
-      <name>КомандаОткрытьЭлементПоНавигационнойСсылкеВРедактореБыстро</name>
+      <name>КомандаОтобразитьКоличествоВсехЭлементовБыстрая</name>
+      <id>223</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КомандаОтобразитьКоличествоВсехЭлементовБыстраяРасширеннаяПодсказка</name>
+        <id>224</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.КомандаОтобразитьКоличествоВсехЭлементов</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+    </items>
+    <items xsi:type="form:Button">
+      <name>КомандаОткрытьЭлементПоНавигационнойСсылкеВРедактореБыстрая</name>
       <id>189</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -76,7 +104,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КомандаОткрытьЭлементПоНавигационнойСсылкеВРедактореБыстроРасширеннаяПодсказка</name>
+        <name>КомандаОткрытьЭлементПоНавигационнойСсылкеВРедактореБыстраяРасширеннаяПодсказка</name>
         <id>190</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -91,6 +119,35 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.КомандаОткрытьЭлементПоНавигационнойСсылкеВРедакторе</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+    </items>
+    <items xsi:type="form:Button">
+      <name>КомандаОткрытьФормуНастройкиНавигатораБыстрая</name>
+      <id>221</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КомандаОткрытьФормуНастройкиНавигатораБыстраяРасширеннаяПодсказка</name>
+        <id>222</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.КомандаОткрытьФормуНастройкиНавигатора</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -111,7 +168,7 @@
     </toolTip>
     <groupHorizontalAlign>Left</groupHorizontalAlign>
     <extendedTooltip>
-      <name>КоманднаяПанельБыстрыеДействияРасширеннаяПодсказка</name>
+      <name>КоманднаяПанельСервисБыстрыеДействияРасширеннаяПодсказка</name>
       <id>125</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -614,7 +671,7 @@
             <name>СтруктураМетаданныхКонфигурацииКонтекстноеМеню</name>
             <id>48</id>
             <items xsi:type="form:Button">
-              <name>СтруктураМетаданныхКонфигурацииСтруктураМетаданныхКонфигурацииСтруктураМетаданныхКонфигурацииКомандаОткрытьСписокЭлементовОбъектаМетаданных</name>
+              <name>КомандаОткрытьСписокЭлементовОбъектаМетаданных</name>
               <id>92</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -622,7 +679,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СтруктураМетаданныхКонфигурацииСтруктураМетаданныхКонфигурацииСтруктураМетаданныхКонфигурацииКомандаОткрытьСписокЭлементовОбъектаМетаданныхРасширеннаяПодсказка</name>
+                <name>КомандаОткрытьСписокЭлементовОбъектаМетаданныхРасширеннаяПодсказка</name>
                 <id>93</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -643,7 +700,7 @@
               <placementArea>UserCmds</placementArea>
             </items>
             <items xsi:type="form:FormGroup">
-              <name>СтруктураМетаданныхКонфигурацииСтруктураМетаданныхКонфигурацииСтруктураМетаданныхКонфигурацииСтруктураМетаданныхКонфигурацииКонтекстноеМенюГруппа1</name>
+              <name>СтрруктураМетаданныхКонфигурацииКонтекстноеМенюГруппа1</name>
               <id>94</id>
               <items xsi:type="form:Button">
                 <name>КомандаОтобразитьКоличество</name>
@@ -737,8 +794,12 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Стрруктура метаданных конфигурации контекстное меню группа1</value>
+              </title>
               <extendedTooltip>
-                <name>СтруктураМетаданныхКонфигурацииСтруктураМетаданныхКонфигурацииСтруктураМетаданныхКонфигурацииСтруктураМетаданныхКонфигурацииКонтекстноеМенюГруппа1РасширеннаяПодсказка</name>
+                <name>СтрруктураМетаданныхКонфигурацииКонтекстноеМенюГруппа1РасширеннаяПодсказка</name>
                 <id>95</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2114,6 +2175,65 @@
       <name>ФормаПодменюСервис</name>
       <id>144</id>
       <items xsi:type="form:Button">
+        <name>КомандаСкрытьПоказатьСтруктуруМетаданныхКонфигурации</name>
+        <id>225</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>КомандаСкрытьПоказатьСтруктуруМетаданныхКонфигурацииРасширеннаяПодсказка</name>
+          <id>226</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.КомандаСкрытьПоказатьСтруктуруМетаданныхКонфигурации</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <check>true</check>
+      </items>
+      <items xsi:type="form:Button">
+        <name>КомандаСкрытьПоказатьПанельИзбранныхЭлементов</name>
+        <id>219</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>КомандаСкрытьПоказатьПанельИзбранныхЭлементовРасширеннаяПодсказка</name>
+          <id>220</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.КомандаСкрытьПоказатьПанельИзбранныхЭлементов</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+      </items>
+      <items xsi:type="form:Button">
         <name>КомандаОтобразитьКоличествоВсехЭлементов</name>
         <id>160</id>
         <visible>true</visible>
@@ -2275,6 +2395,67 @@
       <extendedTooltip>
         <name>ФормаПодменюСервисРасширеннаяПодсказка</name>
         <id>145</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Popup</type>
+      <extInfo xsi:type="form:PopupGroupExtInfo">
+        <representation>Auto</representation>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ФормаПодменюАдминистрирование</name>
+      <id>227</id>
+      <items xsi:type="form:Button">
+        <name>КомандаОткрытьФормуСпискаПользователей</name>
+        <id>229</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>КомандаОткрытьФормуСпискаПользователейРасширеннаяПодсказка</name>
+          <id>230</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.КомандаОткрытьФормуСпискаПользователей</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Администрирование</value>
+      </title>
+      <extendedTooltip>
+        <name>ФормаПодменюАдминистрированиеРасширеннаяПодсказка</name>
+        <id>228</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2880,7 +3061,7 @@
     <name>КомандаСкрытьПоказатьСтруктуруМетаданныхКонфигурации</name>
     <title>
       <key>ru</key>
-      <value>Конфигурация</value>
+      <value>Дерево метаданных</value>
     </title>
     <id>3</id>
     <toolTip>
@@ -2890,6 +3071,9 @@
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.СкрытьПоказатьДеревоМетаданных</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаСкрытьПоказатьСтруктуруМетаданныхКонфигурации</name>
@@ -3041,11 +3225,14 @@
     <id>10</id>
     <toolTip>
       <key>ru</key>
-      <value>Команда открыть форму настройки навигатора</value>
+      <value>Настройки</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.НастройкиНавигатора</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаОткрытьФормуНастройкиНавигатора</name>
@@ -3081,9 +3268,16 @@
       <value>Отобразить количество всех элементов</value>
     </title>
     <id>12</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отобразить количество всех элементов</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ОтобразитьКоличествоВсехЭлементов</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаОтобразитьКоличествоВсехЭлементов</name>
@@ -3098,6 +3292,10 @@
       <value>Открыть элемент по навигационной ссылке в редакторе...</value>
     </title>
     <id>13</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Перейти по навигационной ссылке</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -3115,9 +3313,13 @@
     <name>КомандаСкрытьПоказатьПанельИзбранныхЭлементов</name>
     <title>
       <key>ru</key>
-      <value>Скрыть/показать панель избранных элементов</value>
+      <value>Панель избранных элементов</value>
     </title>
     <id>14</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Скрыть/показать панель избранного</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -3127,6 +3329,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаСкрытьПоказатьПанельИзбранныхЭлементов</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаОткрытьФормуСпискаПользователей</name>
+    <title>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </title>
+    <id>15</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаОткрытьФормуСпискаПользователей</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

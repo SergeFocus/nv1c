@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d57b5bee-b30c-4d02-b3de-784cbceffc56">
+  <name>ВсеКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все константы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ОсновнаяОрганизация</content>
+</mdclass:Subsystem>

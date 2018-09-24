@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <subsystemsOrder>
+    <subsystems>Subsystem.ВсеКонстанты</subsystems>
     <subsystems>Subsystem.ВсеСправочники</subsystems>
     <subsystems>Subsystem.ВсеДокументы</subsystems>
-    <subsystems>Subsystem.ВсеОбработки</subsystems>
-    <subsystems>Subsystem.ВсеРегистрыСведений</subsystems>
-    <subsystems>Subsystem.ВсеРегистрыНакопления</subsystems>
     <subsystems>Subsystem.ВсеПланыСчетов</subsystems>
-    <subsystems>Subsystem.ВсеРегистрыБухгалтерии</subsystems>
+    <subsystems>Subsystem.ВсеРегистрыНакопления</subsystems>
+    <subsystems>Subsystem.ВсеОбработки</subsystems>
     <subsystems>Subsystem.ВсеПланыВидовРасчета</subsystems>
+    <subsystems>Subsystem.ВсеРегистрыБухгалтерии</subsystems>
     <subsystems>Subsystem.ВсеРегистрыРасчета</subsystems>
+    <subsystems>Subsystem.ВсеРегистрыСведений</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

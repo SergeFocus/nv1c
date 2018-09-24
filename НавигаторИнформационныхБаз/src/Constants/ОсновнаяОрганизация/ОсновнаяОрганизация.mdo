@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6619a7de-3d95-4649-8cdb-39906c2b0fa9">
+  <producedTypes>
+    <managerType typeId="bcd72e55-c50f-4fb5-b411-96a313c83641" valueTypeId="e394c554-8882-4664-a004-f1ee47efb7a0"/>
+    <valueManagerType typeId="4fdbede1-9f33-4ec1-855c-3ce7c8789a89" valueTypeId="6101e08e-0b9f-43a9-a4d7-511efae61727"/>
+  </producedTypes>
+  <name>ОсновнаяОрганизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная организация</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Организации</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

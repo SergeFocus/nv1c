@@ -29,15 +29,24 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.ВсеСправочники</subsystems>
   <subsystems>Subsystem.ВсеДокументы</subsystems>
-  <subsystems>Subsystem.ВсеПланыСчетов</subsystems>
-  <subsystems>Subsystem.ВсеРегистрыНакопления</subsystems>
+  <subsystems>Subsystem.ВсеКонстанты</subsystems>
   <subsystems>Subsystem.ВсеОбработки</subsystems>
   <subsystems>Subsystem.ВсеПланыВидовРасчета</subsystems>
+  <subsystems>Subsystem.ВсеПланыСчетов</subsystems>
   <subsystems>Subsystem.ВсеРегистрыБухгалтерии</subsystems>
+  <subsystems>Subsystem.ВсеРегистрыНакопления</subsystems>
   <subsystems>Subsystem.ВсеРегистрыРасчета</subsystems>
   <subsystems>Subsystem.ВсеРегистрыСведений</subsystems>
+  <subsystems>Subsystem.ВсеСправочники</subsystems>
+  <commonPictures>CommonPicture.НастройкиНавигатора</commonPictures>
+  <commonPictures>CommonPicture.ОтобразитьКоличествоВсехЭлементов</commonPictures>
+  <commonPictures>CommonPicture.СкрытьПоказатьДеревоМетаданных</commonPictures>
+  <sessionParameters>SessionParameter.ОсновонйКонтрагент</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <exchangePlans>ExchangePlan.ШинаОбменаДанными</exchangePlans>
+  <constants>Constant.ОсновнаяОрганизация</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
