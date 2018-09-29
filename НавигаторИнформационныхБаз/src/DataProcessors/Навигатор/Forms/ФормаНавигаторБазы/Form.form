@@ -36,6 +36,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <check>true</check>
+      <picture xsi:type="form:FormPicture"/>
     </items>
     <items xsi:type="form:Button">
       <name>КомандаСкрытьПоказатьПанельИзбранныхЭлементовБыстрая</name>
@@ -94,6 +95,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <picture xsi:type="form:FormPicture"/>
     </items>
     <items xsi:type="form:Button">
       <name>КомандаОткрытьЭлементПоНавигационнойСсылкеВРедактореБыстрая</name>
@@ -152,6 +154,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <picture xsi:type="form:FormPicture"/>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -2203,6 +2206,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <check>true</check>
+        <picture xsi:type="form:FormPicture"/>
       </items>
       <items xsi:type="form:Button">
         <name>КомандаСкрытьПоказатьПанельИзбранныхЭлементов</name>
@@ -2261,6 +2265,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <picture xsi:type="form:FormPicture"/>
       </items>
       <items xsi:type="form:Button">
         <name>КомандаОткрытьЭлементПоНавигационнойСсылкеВРедакторе</name>
@@ -2322,6 +2327,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <picture xsi:type="form:FormPicture"/>
         </items>
         <items xsi:type="form:Button">
           <name>КомандаИзменитьФорму</name>
@@ -3071,9 +3077,6 @@
     <use>
       <common>true</common>
     </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.СкрытьПоказатьДеревоМетаданных</picture>
-    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаСкрытьПоказатьСтруктуруМетаданныхКонфигурации</name>

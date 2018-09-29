@@ -15,6 +15,8 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>Николаев Олег</vendor>
+  <version>2.0.1.0</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -39,9 +41,6 @@
   <subsystems>Subsystem.ВсеРегистрыРасчета</subsystems>
   <subsystems>Subsystem.ВсеРегистрыСведений</subsystems>
   <subsystems>Subsystem.ВсеСправочники</subsystems>
-  <commonPictures>CommonPicture.НастройкиНавигатора</commonPictures>
-  <commonPictures>CommonPicture.ОтобразитьКоличествоВсехЭлементов</commonPictures>
-  <commonPictures>CommonPicture.СкрытьПоказатьДеревоМетаданных</commonPictures>
   <sessionParameters>SessionParameter.ОсновонйКонтрагент</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
