@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90860e40-badc-4278-85ed-3c3d05f0bf6a">
+  <producedTypes>
+    <selectionType typeId="91b41d38-59e0-425d-8be8-c7c922e65477" valueTypeId="deb47224-82e0-412b-bcb0-5a89e0c7bcbf"/>
+    <listType typeId="f3720407-138a-44e0-aa69-76601fdeadfb" valueTypeId="261037c6-acbe-4ffe-ba3d-e44c0e6b1433"/>
+    <managerType typeId="5a471092-92fb-4361-936a-a03d542eaf0a" valueTypeId="194079fd-ba5f-4308-bbf6-4e5a6cc33109"/>
+    <recordSetType typeId="fae88e9d-de9b-4168-be09-6156c26e626c" valueTypeId="4c155eb2-3ab5-4f96-af00-97cdb92b1449"/>
+    <recordKeyType typeId="fc0d8846-1e08-4c2c-9c8e-cb3de2b9d33f" valueTypeId="e7165ede-8158-4d13-8535-8abeccc794e7"/>
+    <recordType typeId="f03e694a-7a4c-40e3-8aad-1d15865e31c4" valueTypeId="935abc89-a29f-4090-934b-d504712907e0"/>
+    <extDimensionsType typeId="69e8d157-3329-4929-9647-5785cb248c5d" valueTypeId="c8c0141f-a57e-477e-909a-d7bff7f17358"/>
+  </producedTypes>
+  <name>РегБухБезКорреспонденции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рег бух без корреспонденции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <fullTextSearch>Use</fullTextSearch>
+  <resources uuid="b5f5921c-2644-43af-8624-86f91618cda8">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

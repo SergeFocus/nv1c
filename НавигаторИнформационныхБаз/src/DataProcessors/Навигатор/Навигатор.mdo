@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff5adc16-6736-4b5e-9a2f-daed5daaf939">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b0af749-16a9-4a17-86ef-bf1f32278ade">
   <producedTypes>
-    <objectType typeId="3413d71e-f67d-465a-9fcd-1b05402f455a" valueTypeId="185a4e20-969b-4d0a-a0c3-4ca4b56f2561"/>
-    <managerType typeId="d070cf57-354a-48b2-9ffe-b2d225e3f8cc" valueTypeId="17ca1be4-d69f-4110-a65f-37d07358e1d5"/>
+    <objectType typeId="83447b63-cbf3-4695-a222-f00012a56ca6" valueTypeId="22ca051d-8a89-4806-9ebf-d20a187a599b"/>
+    <managerType typeId="9da844d2-7fa5-4de2-8453-8d2bfb2d878a" valueTypeId="fc784170-79c2-4bc3-825f-bd836766e406"/>
   </producedTypes>
   <name>Навигатор</name>
   <synonym>
     <key>ru</key>
-    <value>Навигатор 2.0.1</value>
+    <value>1С:Навигатор 2.0.1</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.Навигатор.Form.ФормаНавигаторБазы</defaultForm>
-  <attributes uuid="dec16ca4-1619-45de-8122-b913ebd7d427">
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b905f66b-873f-45ee-9bfd-085946753993">
     <name>Система_РазделительЧастейИмен</name>
     <synonym>
       <key>ru</key>
@@ -29,7 +34,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="bab0289a-ec3e-4c65-8204-6590e43f2f1e">
+  <attributes uuid="9ac8bd50-2dd2-4f9f-85b9-53e0d2deae48">
     <name>Настройки_ОтображатьКоличествоЭлементов</name>
     <synonym>
       <key>ru</key>
@@ -43,95 +48,297 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <tabularSections uuid="0fee7e35-c15a-46a7-aac2-c8b2ed5cab1e">
+  <attributes uuid="644a4e5a-d5dd-405e-b1f7-c094441cf8a3">
+    <name>Настройки_ОтображатьПанельИсторииПриОткрытии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать панель истории при открытии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7417549d-3bbd-48ee-b7f8-215628597e02">
+    <name>Настройки_ОтображатьПанельИзбранногоПриОткрытии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать панель избранного при открытии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="3af5ebd9-66f3-4f76-adac-eadd093806b4">
     <producedTypes>
-      <objectType typeId="bfc5b617-31ee-4fac-b4df-2ff007cd8af8" valueTypeId="9df17be3-5911-48b2-bb2e-18c290bc063b"/>
-      <rowType typeId="a238cdf1-d609-45be-adfe-230c40c6877f" valueTypeId="c3858985-ab8e-422d-b006-b4a859f8ee63"/>
+      <objectType typeId="b71b9c3d-53d8-4fbb-8b0b-a31a11dcb272" valueTypeId="f6301fa2-b1ba-4083-be49-d26686e50e2a"/>
+      <rowType typeId="7026f8ef-8a7a-4e54-835d-af202fd87000" valueTypeId="8c68a8c5-a2dc-4ec4-b0cf-14eb21111747"/>
     </producedTypes>
     <name>ИзбранныеЭлементы</name>
     <synonym>
       <key>ru</key>
       <value>Избранные элементы</value>
     </synonym>
-    <attributes uuid="b3817334-f9e9-436d-b0f2-0084314cc2aa">
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1b4bc88f-8d8c-4f57-8727-cc78011ba69b">
       <name>ИдЗаписи</name>
       <synonym>
         <key>ru</key>
         <value>Ид записи</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
           <length>36</length>
         </stringQualifiers>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
     </attributes>
-    <attributes uuid="a771fd06-0af1-455e-996e-9865a596b9f0">
+    <attributes uuid="b943d2c6-7179-44bd-8c78-8a7fde143f4d">
       <name>Представление</name>
       <synonym>
         <key>ru</key>
         <value>Представление</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
     </attributes>
-    <attributes uuid="37e6507b-375a-4066-b78d-79c27447d910">
+    <attributes uuid="e24256f9-05eb-4a53-b550-ed42622f51c4">
       <name>Родитель</name>
       <synonym>
         <key>ru</key>
         <value>Родитель</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
           <length>36</length>
         </stringQualifiers>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
     </attributes>
-    <attributes uuid="eaae1913-5b03-4cd8-b43a-a17063ee7414">
+    <attributes uuid="0d693a54-eedf-4785-a5f8-5039eec348ed">
       <name>Ссылка</name>
       <synonym>
         <key>ru</key>
         <value>Ссылка</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>AnyRef</types>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ed8a8c2e-1b7f-4e3a-aaf2-64d4bc7e28e8">
+      <name>ТипЗначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип значения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="07528ef0-1e2d-4d71-951f-aa8985fbd4b2">
+      <name>НавигационнаяСсылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Навигационная ссылка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
     </attributes>
   </tabularSections>
-  <forms uuid="d7143f88-eeaf-4f34-a120-94122fda65e1">
-    <name>ФормаНавигаторБазы</name>
+  <tabularSections uuid="39aaf728-8bea-423d-b60d-3c34d7b9df6b">
+    <producedTypes>
+      <objectType typeId="ce0f4262-c03b-4c15-97fa-8b1a1e95a2c5" valueTypeId="2d60e7cf-e93c-4c0b-b8ba-17ecfddaa626"/>
+      <rowType typeId="284a66f9-e11a-4de9-8d10-0afbba724f93" valueTypeId="432f73df-feae-4c2a-ba50-b6fa14ca78a2"/>
+    </producedTypes>
+    <name>ИсторияНавигации</name>
     <synonym>
       <key>ru</key>
-      <value>Форма навигатор базы</value>
+      <value>История навигации</value>
     </synonym>
     <comment></comment>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="d6f1a81f-6209-406d-af4c-69e9c7fc4553">
-    <name>ФормаРедакторОбъекта</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма редактор объекта</value>
-    </synonym>
-    <comment></comment>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="89ce49c8-c46a-4368-b9cb-b11bde6af3ea">
-    <name>ФормаСвойстваОбъекта</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма свойства объекта</value>
-    </synonym>
-    <comment></comment>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="a25f7158-b65b-4591-ba97-5dc888da8574">
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="da0c9f44-93f6-4417-861c-acfc42c9559b">
+      <name>ИдЗаписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ид записи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="b5d89fe5-7ebe-44e2-add1-4a88641f8375">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9170c782-8ce4-4b1c-b6bd-d8c867ba1eb8">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="08a27e08-f05b-4f78-a8e6-0ebdb64bb6f3">
+      <name>ДатаСобытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата события</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b7af1fd1-a5f6-439d-aaf6-5adcb93e09b2">
+      <name>ТипЗначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип значения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a01410fa-f44a-4528-a9d4-ec075eb22d51">
+      <name>НавигационнаяСсылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Навигационная ссылка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e3438f3c-2805-478b-b618-9ac07f234e95">
     <name>ФормаЗначенияКонстант</name>
     <synonym>
       <key>ru</key>
@@ -141,7 +348,17 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="99203901-d1fa-423d-8d65-ae64c2137817">
+  <forms uuid="aba2ff6d-a516-4e4d-8932-c4d1c5a6c4d0">
+    <name>ФормаНавигаторБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма навигатор базы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c486ac27-2926-4b30-9683-99660e0e34d5">
     <name>ФормаОПрограмме</name>
     <synonym>
       <key>ru</key>
@@ -151,17 +368,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="85003d1d-215e-4e76-a951-3283da00fbb0">
-    <name>ФормаНастройкиНавигатора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Настройки</value>
-    </synonym>
-    <comment></comment>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="dba7c9b3-74dc-4e08-8772-6c21fbbaf8ff">
+  <forms uuid="8224c86f-2ee6-479b-ade3-6f6c6dbce3b7">
     <name>ФормаПользователиБазы</name>
     <synonym>
       <key>ru</key>
@@ -171,12 +378,33 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="9955bca4-d9f4-4c82-aa0a-33d5a885f0de">
+  <forms uuid="b74d5cc1-33de-429d-9c01-4f2462d4b689">
     <name>ФормаРедакторЗаписи</name>
     <synonym>
       <key>ru</key>
       <value>Форма редактор записи</value>
     </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1c276fa0-ef83-42a7-99d5-26e27c77ed3b">
+    <name>ФормаРедакторОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактор объекта</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="17c53a04-06a4-4615-b618-4c280a104eee">
+    <name>ФормаСвойстваОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма свойства объекта</value>
+    </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

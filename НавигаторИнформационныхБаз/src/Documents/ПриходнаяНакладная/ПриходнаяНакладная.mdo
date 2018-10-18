@@ -27,6 +27,8 @@
   <registerRecords>InformationRegister.ЦеныЗакупки</registerRecords>
   <registerRecords>AccountingRegister.ХозрасчетныйОбычныйКорр3Субконто</registerRecords>
   <registerRecords>CalculationRegister.РасчетыПоЗаработнойПлате</registerRecords>
+  <registerRecords>AccountingRegister.РегБухБезКорреспонденции</registerRecords>
+  <registerRecords>AccountingRegister.РегистрБухгалтерии_БезКорреспонденции</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1921eb90-16d8-4275-8ab5-8c83756c52c1">

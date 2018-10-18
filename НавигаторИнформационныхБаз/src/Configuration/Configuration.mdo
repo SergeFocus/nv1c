@@ -58,7 +58,10 @@
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетный</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Хозрасчетный</chartsOfAccounts>
+  <chartsOfAccounts>ChartOfAccounts.ПланСчетов_БезКорреспонденции</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.ХозрасчетныйОбычныйКорр3Субконто</accountingRegisters>
+  <accountingRegisters>AccountingRegister.РегБухБезКорреспонденции</accountingRegisters>
+  <accountingRegisters>AccountingRegister.РегистрБухгалтерии_БезКорреспонденции</accountingRegisters>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.РасчетыПоЗаработнойПлате</calculationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bb8b9c2-7596-412b-9099-8745ee7e271b">
+  <producedTypes>
+    <selectionType typeId="234d20e1-879a-4912-b70f-d42281590bf0" valueTypeId="7c9744fc-6da9-4fc9-a2c7-36d8d133ce86"/>
+    <listType typeId="94414ee5-2d73-4b1e-9841-9ae5a4536403" valueTypeId="ff64345c-7a26-4932-840e-f87254ba84e2"/>
+    <managerType typeId="0e4177fa-2ea7-4c94-b2c2-8d2b45246b3a" valueTypeId="94314e5f-ffca-4088-87fe-a51b5452d384"/>
+    <recordSetType typeId="d4c1e101-0f30-48ac-bd09-08b258121b4a" valueTypeId="7851cefd-eb79-4129-b36e-070a8efdce7e"/>
+    <recordKeyType typeId="bdd68833-a71f-4331-8a63-219e1d0e9086" valueTypeId="0c22be2f-2429-447d-9d45-414d0a06ae6d"/>
+    <recordType typeId="cdcfe6fb-e164-4035-921f-841fca779171" valueTypeId="382898fa-2112-4060-bcf7-90d1677a472a"/>
+    <extDimensionsType typeId="e9140534-3dc9-4f8d-b896-dae88d09abbb" valueTypeId="3ad00fad-eb31-4bef-af02-d24cdf572c9a"/>
+  </producedTypes>
+  <name>РегистрБухгалтерии_БезКорреспонденции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр бухгалтерии без корреспонденции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.ПланСчетов_БезКорреспонденции</chartOfAccounts>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <fullTextSearch>Use</fullTextSearch>
+  <resources uuid="4386c7bb-57cf-4726-b098-2dff92d52e0d">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

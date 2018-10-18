@@ -2,14 +2,16 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>О программе 1С:Навигатор</value>
+    <value>О программе</value>
   </title>
   <items xsi:type="form:Decoration">
     <name>НадписьОПрограмме</name>
     <id>1</id>
     <title>
       <key>ru</key>
-      <value>Обработка 1С:Навигатор предназначена для просмотра структуры и данных информационных баз на платформе 1С:Предприятие.
+      <value>Обработка 1С:Навигатор предназначена для просмотра 
+структуры и данных информационных баз на платформе 
+1С:Предприятие.
 
 Разработчик: Николаев Олег
 Контакты: o.nikolaev@bk.ru</value>
@@ -46,6 +48,7 @@
     </contextMenu>
     <type>Label</type>
     <autoMaxWidth>true</autoMaxWidth>
+    <height>6</height>
     <autoMaxHeight>true</autoMaxHeight>
     <extInfo xsi:type="form:LabelDecorationExtInfo">
       <horizontalAlign>Left</horizontalAlign>
@@ -56,7 +59,7 @@
     <id>4</id>
     <title>
       <key>ru</key>
-      <value>Страница разработки на infostart.ru</value>
+      <value>infostart.ru</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -105,7 +108,7 @@
     <id>12</id>
     <title>
       <key>ru</key>
-      <value>Страница разработки на github.com</value>
+      <value>github.com</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -154,7 +157,7 @@
     <id>9</id>
     <title>
       <key>ru</key>
-      <value>Написать разработчику</value>
+      <value>Обратная связь</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -223,10 +226,11 @@
     </extendedTooltip>
     <type>UsualButton</type>
     <commandName>Form.StandardCommand.Close</commandName>
-    <representation>Auto</representation>
+    <representation>PictureAndText</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <placementArea>UserCmds</placementArea>
+    <picture xsi:type="form:FormPicture"/>
   </items>
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>

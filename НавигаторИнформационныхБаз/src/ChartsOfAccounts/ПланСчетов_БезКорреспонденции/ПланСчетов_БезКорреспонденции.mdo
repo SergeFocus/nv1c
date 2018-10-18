@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6405d105-eafa-4cb9-8b02-98feb7325d5d">
+  <producedTypes>
+    <objectType typeId="1a2aa74f-8e92-451b-a03c-8e480e7351ea" valueTypeId="5d2787e9-8e64-4ffe-b7f4-e6e8e819acc4"/>
+    <refType typeId="1cd9ae21-e4dc-4e6f-95bd-943a9b6676e1" valueTypeId="40176028-1674-4d8f-8f27-6089d0a9f3f8"/>
+    <selectionType typeId="8aa8ccb4-d6b9-4b35-8b62-faf27f6b88ce" valueTypeId="dc8f0e1f-f815-43bb-880c-a382cbeb3463"/>
+    <listType typeId="4a2277b4-b1e5-4142-9f13-8b4152920219" valueTypeId="8f06dbce-637c-48ed-af81-2532e17f171c"/>
+    <managerType typeId="8d049c3f-bbb2-4aa6-84a2-f5aef43c9abf" valueTypeId="539231bf-fde8-4951-8e93-898dfa2822b4"/>
+    <extDimensionTypes typeId="fffdbe36-ffaf-4dd1-8eda-502ce71c8d91" valueTypeId="bfba315b-56ad-4867-8854-681673a92199"/>
+    <extDimensionTypesRow typeId="e00a9878-d26e-4f72-8039-60c932d25b2b" valueTypeId="9e425954-ffa2-4a77-bb60-67f0e4632810"/>
+  </producedTypes>
+  <name>ПланСчетов_БезКорреспонденции</name>
+  <synonym>
+    <key>ru</key>
+    <value>План счетов без корреспонденции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.ПланСчетов_БезКорреспонденции.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfAccounts.ПланСчетов_БезКорреспонденции.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfAccounts>
