@@ -26,6 +26,10 @@
     <mdObject>Catalog.Контрагенты</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
+  <content>
+    <mdObject>Document.ПриходнаяНакладная</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <choiceMode>BothWays</choiceMode>
 </mdclass:ExchangePlan>
