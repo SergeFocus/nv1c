@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0027bce2-c443-4e6a-a89e-93d1ab23a8aa">
+  <producedTypes>
+    <selectionType typeId="793cadec-322b-4bf4-973a-42e914556c4a" valueTypeId="00af2975-a196-4f71-bfef-471639f9361e"/>
+    <listType typeId="70aa9389-1784-47f4-82d6-3ddffe725bd7" valueTypeId="a7cdaa37-7f30-4d6c-a483-96ae7cecac89"/>
+    <managerType typeId="948e03c1-9a7c-48a8-a7b6-fc7999b2f538" valueTypeId="88e19cce-598a-46ed-a2c2-e9048bb7635f"/>
+    <recordSetType typeId="43bbe48f-27ba-4b03-8ebd-0bbf16bd6989" valueTypeId="fd2f339e-9ce7-4ea2-9982-00843e5e97a8"/>
+    <recordKeyType typeId="12f7c303-a9ea-41ce-a64b-09a01a5f0663" valueTypeId="55ddf699-a288-40e9-ac86-da3de7b0b975"/>
+    <recordType typeId="f3bdb1dc-7fb8-4a67-b4a4-04e0f50738dc" valueTypeId="ab8cf272-a0dd-4c06-9aa3-5e11d1d07814"/>
+    <recordManagerType typeId="753c25c7-609d-49c4-baff-076f207a4b5c" valueTypeId="6218bdd5-08ea-4f29-afc3-1e727e4b070f"/>
+  </producedTypes>
+  <name>АналогиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналоги номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f6cddd5f-7c49-41d0-8255-ca40d0555640">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2bea2504-894b-49c6-a529-b235b9a60d4b">
+    <name>Аналог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналог</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
