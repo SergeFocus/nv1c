@@ -56,7 +56,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>Шрифт</dcscor:parameter>
-				<dcscor:value bold="false" italic="true" kind="WindowsFont" ref="sys:DefaultGUIFont" strikeout="true" underline="false" xsi:type="v8ui:Font"/>
+				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" italic="true" underline="false" strikeout="true" kind="WindowsFont"/>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -76,7 +76,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>Шрифт</dcscor:parameter>
-				<dcscor:value bold="false" italic="true" kind="WindowsFont" ref="sys:DefaultGUIFont" strikeout="true" underline="false" xsi:type="v8ui:Font"/>
+				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" italic="true" underline="false" strikeout="true" kind="WindowsFont"/>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -96,7 +96,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>Шрифт</dcscor:parameter>
-				<dcscor:value bold="false" italic="true" kind="WindowsFont" ref="sys:DefaultGUIFont" strikeout="true" underline="false" xsi:type="v8ui:Font"/>
+				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" italic="true" underline="false" strikeout="true" kind="WindowsFont"/>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -116,7 +116,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>Шрифт</dcscor:parameter>
-				<dcscor:value bold="false" italic="true" kind="WindowsFont" ref="sys:DefaultGUIFont" strikeout="true" underline="false" xsi:type="v8ui:Font"/>
+				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" italic="true" underline="false" strikeout="true" kind="WindowsFont"/>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -136,7 +136,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>Шрифт</dcscor:parameter>
-				<dcscor:value bold="false" italic="true" kind="WindowsFont" ref="sys:DefaultGUIFont" strikeout="true" underline="false" xsi:type="v8ui:Font"/>
+				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" italic="true" underline="false" strikeout="true" kind="WindowsFont"/>
 			</dcscor:item>
 		</appearance>
 	</item>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccountingRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b5cc071-1119-4d76-8301-e48533b398d2">
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b5cc071-1119-4d76-8301-e48533b398d2">
   <producedTypes>
     <selectionType typeId="25445f2f-76f6-4dd9-b4d1-a6a49d3d0efd" valueTypeId="c7d88e79-3faa-4877-9165-225467b1bf00"/>
     <listType typeId="ba7be5da-06b7-451c-981e-dfac9ac2d9f6" valueTypeId="e8f53d93-427a-41ad-9026-f908b83578a2"/>
@@ -29,6 +29,8 @@
     <type>
       <types>CatalogRef.Организации</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <balance>true</balance>
   </dimensions>
@@ -45,6 +47,8 @@
         <scale>2</scale>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <balance>true</balance>
   </resources>
@@ -58,6 +62,8 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
 </mdclass:AccountingRegister>

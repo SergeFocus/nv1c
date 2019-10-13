@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e159e24f-e58d-4159-b039-efa3915108e4">
+  <producedTypes>
+    <managerType typeId="297958c8-e256-4dfc-840c-b8dbf042ab38" valueTypeId="fcaabdd8-5a43-4ba1-9958-8c5c094074d1"/>
+    <valueManagerType typeId="18e5ea68-d72e-4bbc-857e-cdfe27141544" valueTypeId="1ca26388-f51a-4cd8-acb1-36fd9f8f9a89"/>
+  </producedTypes>
+  <name>КонстантаСоставнойТип</name>
+  <synonym>
+    <key>ru</key>
+    <value>Константа составной тип</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+    <types>EnumRef.ВидыНоменклатуры</types>
+    <types>ChartOfCharacteristicTypesRef.ВидыСубконтоХозрасчетный</types>
+    <types>ChartOfAccountsRef.Хозрасчетный</types>
+    <types>ChartOfCalculationTypesRef.ОсновныеНачисления</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

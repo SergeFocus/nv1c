@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa2f6b90-322f-47a8-9ba9-5f686f44353b">
+  <producedTypes>
+    <managerType typeId="4ab8e73d-4761-4d9a-88ac-5e76d77182cf" valueTypeId="35ee07db-294f-40f9-ae10-ca32f30512d2"/>
+    <valueManagerType typeId="76c255ee-e818-43b9-819f-9b069a6522aa" valueTypeId="15125478-9dce-4593-8591-c4f7dfe0b930"/>
+  </producedTypes>
+  <name>УдалитьОсновнойКонтрагент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной контрагент (устаревшая)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

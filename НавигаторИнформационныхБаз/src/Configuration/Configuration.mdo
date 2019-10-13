@@ -46,6 +46,10 @@
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <exchangePlans>ExchangePlan.ШинаОбменаДанными</exchangePlans>
   <constants>Constant.ОсновнаяОрганизация</constants>
+  <constants>Constant.УдалитьОсновнойКонтрагент</constants>
+  <constants>Constant.КонстантаСоставнойТип</constants>
+  <constants>Constant.КонстантаБулево</constants>
+  <constants>Constant.КонстантаЛюбаяСсылка</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>

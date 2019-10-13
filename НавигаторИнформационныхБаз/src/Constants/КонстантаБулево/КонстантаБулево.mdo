@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc5532b7-b6b5-49d7-aea1-f1b417050e3b">
+  <producedTypes>
+    <managerType typeId="5f34dc1d-cb33-41df-8eac-01d88320095b" valueTypeId="deda5bc5-efb9-46c7-85cb-22ba82a1933a"/>
+    <valueManagerType typeId="83beb516-d623-438b-bed4-144bd4ca196e" valueTypeId="edfa2848-3650-445b-98eb-3e02165bc0fd"/>
+  </producedTypes>
+  <name>КонстантаБулево</name>
+  <synonym>
+    <key>ru</key>
+    <value>Константа булево</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

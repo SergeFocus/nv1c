@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e280112d-5580-4571-91a8-5c0fc4a92403">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e280112d-5580-4571-91a8-5c0fc4a92403">
   <producedTypes>
     <objectType typeId="0ff00bed-157e-4728-84ce-11ea9e635c8a" valueTypeId="8796d5d1-36e9-40a0-8971-857da864204a"/>
     <refType typeId="26719f07-7950-4627-ac5d-c993ade40f1b" valueTypeId="edf4d4ed-7290-40b3-ac29-22d9141a033c"/>
@@ -40,6 +40,9 @@
     <type>
       <types>CatalogRef.Склады</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -52,6 +55,9 @@
     <type>
       <types>CatalogRef.Контрагенты</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -64,6 +70,9 @@
     <type>
       <types>CatalogRef.Организации</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -86,6 +95,8 @@
       <type>
         <types>CatalogRef.Номенклатура</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
     </attributes>
     <attributes uuid="c21f4c50-2c27-49da-ba49-464ebccbac9d">
@@ -100,6 +111,8 @@
           <precision>10</precision>
         </numberQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
     </attributes>
     <attributes uuid="79345c44-6d34-44a0-a6bc-41f1367784d6">
@@ -115,6 +128,8 @@
           <scale>2</scale>
         </numberQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
     </attributes>
     <attributes uuid="faa939ef-541c-4284-90ee-3e4f5786d731">
@@ -131,6 +146,8 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
     </attributes>
   </tabularSections>

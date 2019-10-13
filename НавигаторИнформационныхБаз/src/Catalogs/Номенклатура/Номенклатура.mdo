@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db42231e-0d53-4cd2-b618-51d4ac2d286e">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db42231e-0d53-4cd2-b618-51d4ac2d286e">
   <producedTypes>
     <objectType typeId="1ca01b73-c9ef-4bd2-ac74-c1afca00e03d" valueTypeId="4260afd2-bcfc-4ef9-a204-0baeb1f932c6"/>
     <refType typeId="fe8defef-c008-44b3-b9a5-0c6a2c83cfab" valueTypeId="75e92fef-13bb-44b9-b86f-3f8b0b6a798a"/>
@@ -39,6 +39,9 @@
     <type>
       <types>EnumRef.ВидыНоменклатуры</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -61,6 +64,8 @@
       <type>
         <types>CatalogRef.Номенклатура</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
     </attributes>
   </tabularSections>

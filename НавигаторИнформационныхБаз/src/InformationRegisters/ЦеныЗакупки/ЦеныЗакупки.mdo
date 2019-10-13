@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fca8867c-d191-4231-adb0-e284ca8d4f28">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fca8867c-d191-4231-adb0-e284ca8d4f28">
   <producedTypes>
     <selectionType typeId="ab9bc350-1b82-4c25-8309-c94c8052a985" valueTypeId="084d4b14-82d7-4c39-9105-c0a2cd7efadb"/>
     <listType typeId="b2b0845a-936a-44b8-996a-9aa4b8a4e6c5" valueTypeId="1a45bcb9-b6a6-4407-9aa0-992ac5c358f6"/>
@@ -33,8 +33,11 @@
         <scale>2</scale>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="a78fb161-36f9-4ae9-bcdf-db9752a4461c">
     <name>Контрагент</name>
@@ -45,8 +48,11 @@
     <type>
       <types>CatalogRef.Контрагенты</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="bfc33ffd-9e7a-4e4d-9714-d0556200e831">
@@ -58,8 +64,11 @@
     <type>
       <types>CatalogRef.Номенклатура</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

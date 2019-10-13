@@ -3592,7 +3592,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>191:2bbe4e12-06d2-409b-a972-eea585125d83</commandName>
+                      <commandName>Form.Item.ИзбранныеЭлементы.StandardCommand.SortListAsc</commandName>
                       <representation>Auto</representation>
                       <onlyInAllActions>false</onlyInAllActions>
                       <autoMaxWidth>true</autoMaxWidth>
@@ -3623,7 +3623,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>191:58b2a785-23f6-4b0e-a324-9a1323285595</commandName>
+                      <commandName>Form.Item.ИзбранныеЭлементы.StandardCommand.SortListDesc</commandName>
                       <representation>Auto</representation>
                       <onlyInAllActions>false</onlyInAllActions>
                       <autoMaxWidth>true</autoMaxWidth>
@@ -3678,7 +3678,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>191:8d772f97-c0ef-47c0-9cb0-efea28c61341</commandName>
+                    <commandName>Form.Item.ИзбранныеЭлементы.StandardCommand.Delete</commandName>
                     <representation>Picture</representation>
                     <onlyInAllActions>false</onlyInAllActions>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -3710,7 +3710,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>191:44ad3ec9-f3c2-4913-9224-5f9fb6418743</commandName>
+                    <commandName>Form.Item.ИзбранныеЭлементы.StandardCommand.CancelSearch</commandName>
                     <representation>Picture</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -3725,7 +3725,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </autoCommandBar>
                 <handlers>
-                  <event>1282f000-23b6-4887-87f4-9e8e79db3d32</event>
+                  <event>Selection</event>
                   <name>ИзбранныеЭлементыВыбор</name>
                 </handlers>
                 <searchStringAddition>
@@ -3913,7 +3913,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>191:8d772f97-c0ef-47c0-9cb0-efea28c61341</commandName>
+                    <commandName>Form.Item.ИзбранныеЭлементы.StandardCommand.Delete</commandName>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -3944,7 +3944,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>191:37740564-9e86-44a0-bea9-3f485a5a3f91</commandName>
+                    <commandName>Form.Item.ИзбранныеЭлементы.StandardCommand.MoveUp</commandName>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -3974,7 +3974,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>191:fa51b106-eae6-44c7-8054-76cbb3100603</commandName>
+                    <commandName>Form.Item.ИзбранныеЭлементы.StandardCommand.MoveDown</commandName>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -4004,7 +4004,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>191:88078230-1f6b-415f-99e4-ad2ff73810cf</commandName>
+                    <commandName>Form.Item.ИзбранныеЭлементы.StandardCommand.CopyToClipboard</commandName>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -4034,7 +4034,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>191:51c99108-107c-43e1-8918-e48835bf2495</commandName>
+                    <commandName>Form.Item.ИзбранныеЭлементы.StandardCommand.SelectAll</commandName>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -4684,7 +4684,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>240:44ad3ec9-f3c2-4913-9224-5f9fb6418743</commandName>
+                    <commandName>Form.Item.ИсторияНавигации.StandardCommand.CancelSearch</commandName>
                     <representation>Picture</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -4717,7 +4717,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>240:2bbe4e12-06d2-409b-a972-eea585125d83</commandName>
+                      <commandName>Form.Item.ИсторияНавигации.StandardCommand.SortListAsc</commandName>
                       <representation>Auto</representation>
                       <onlyInAllActions>false</onlyInAllActions>
                       <autoMaxWidth>true</autoMaxWidth>
@@ -4748,7 +4748,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>240:58b2a785-23f6-4b0e-a324-9a1323285595</commandName>
+                      <commandName>Form.Item.ИсторияНавигации.StandardCommand.SortListDesc</commandName>
                       <representation>Auto</representation>
                       <onlyInAllActions>false</onlyInAllActions>
                       <autoMaxWidth>true</autoMaxWidth>
@@ -4811,7 +4811,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>240:8d772f97-c0ef-47c0-9cb0-efea28c61341</commandName>
+                    <commandName>Form.Item.ИсторияНавигации.StandardCommand.Delete</commandName>
                     <representation>Picture</representation>
                     <onlyInAllActions>false</onlyInAllActions>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -4832,7 +4832,7 @@
                   <name>ИсторияНавигацииПроверкаПеретаскивания</name>
                 </handlers>
                 <handlers>
-                  <event>1282f000-23b6-4887-87f4-9e8e79db3d32</event>
+                  <event>Selection</event>
                   <name>ИсторияНавигацииВыбор</name>
                 </handlers>
                 <handlers>
@@ -5089,7 +5089,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>240:8d772f97-c0ef-47c0-9cb0-efea28c61341</commandName>
+                    <commandName>Form.Item.ИсторияНавигации.StandardCommand.Delete</commandName>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -5120,7 +5120,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>240:88078230-1f6b-415f-99e4-ad2ff73810cf</commandName>
+                    <commandName>Form.Item.ИсторияНавигации.StandardCommand.CopyToClipboard</commandName>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -5150,7 +5150,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>240:51c99108-107c-43e1-8918-e48835bf2495</commandName>
+                    <commandName>Form.Item.ИсторияНавигации.StandardCommand.SelectAll</commandName>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -10697,4 +10697,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
 </form:Form>
